@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatima Zahra Tagmouti</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:wght@300..800&family=Playfair+Display:wght@400..900&family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <div id="loading-screen">
+  <div class="loading-content">
+    <i class="fa-solid fa-laptop-code fa-5x main-icon hidden"></i>
+
+    <h1 id="loading-text" class="hidden">MY PROFILE</h1>
+
+    <div class="sub-icons">
+      <i class="fa-brands fa-github fa-2x hidden"></i>
+      <i class="fa-solid fa-code fa-2x hidden"></i>
+      <i class="fa-solid fa-user fa-2x hidden"></i>
+    </div>
+
+    <h2 id="designer-text" class="hidden">Designed by Fatima Zahra</h2>
+  </div>
+</div>
+    <header class="header-list">
+       <div class="div-list">
+  <ul class="ul-list">
+    <li class="active">
+      <i class="fa-solid fa-house"></i>
+      <a href="#home">Home</a>
+    </li>
+    <li>
+      <i class="fa-solid fa-user"></i>
+      <a href="#about">About</a>
+    </li>
+    <li>
+      <i class="fa-solid fa-lightbulb"></i>
+      <a href="#skills">Skills</a>
+    </li>
+    <li>
+      <i class="fa-solid fa-people-group"></i>
+      <a href="#activities">activities</a>
+    </li>
+    <li>
+      <i class="fa-solid fa-folder-open"></i>
+      <a href="#project">Projects</a>
+    </li>
+    <li>
+      <i class="fa-solid fa-envelope"></i>
+      <a href="#contact">Contact</a>
+    </li>
+  </ul>
+</div>
+
+    </header>
+    <!-- home -->
+    <section class="home" id="home">
+        <p class="home-p">
+            <span class="home-s">Available for freelance work</span>
+        </p>
+        <div class="home-container">
+        <div class="home-section">
+            <div class="info-home">
+               <h1>Hi, I'm Fatima Zahra Tagmouti</h1>
+                    <h3>State-Certified Software Engineer | Web Development, Testing, Salesforce & DevOps</h3>
+                    <p><i class="fa-solid fa-location-dot"></i> Based in Oujda, Morocco</p>
+                    <p><i class="fa-solid fa-briefcase"></i> Looking for PFE Internship</p>
+                <!-- <div class="info-p1">
+                    <p>
+                        I'm a passionate software engineering student dedicated to crafting efficient and innovative solutions. With a strong foundation in programming and problem-solving, I thrive on turning complex challenges into seamless applications. Eager to contribute my skills and enthusiasm to impactful projects.
+                    </p>
+                </div> -->
+                <div class="info-p2">
+                    <!-- <p><i class="fa-solid fa-briefcase"></i> Available Now</p> -->
+                </div>
+                <div class="btnn">
+                    <!-- <button class="btn-home1"><i class="fa-solid fa-arrow-right"></i> Hire Me</button> -->
+                <a href="CV_Tagmouti_FatimaZahra.pdf" download class="btn-home2">
+                <i class="fa-solid fa-download"></i> Download CV
+                </a>
+
+                </div>
+                <div class="hhr">
+                    <hr>
+                </div>
+                <div class="follow">
+                    <p class="followw">Follow me:</p>
+                    <ul>
+                        <li><a href="https://github.com/fatimazahratag"><i class="fa-brands fa-github"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/fatima-zahra-tagmouti-37138b295"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="https://www.instagram.com/ft_zahrae_/"><i class="fa-brands fa-instagram"></i></a></li>
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=fatimazahra.tagmouti.dev@gmail.com" target="_blank">
+  <i class="fa-solid fa-envelope"></i>
+</a>
+
+                    </ul>
+                </div>
+            </div>
+          </div>
+<!-- Avatar with halo and name -->
+<div class="profile-card">
+  <div class="avatar-halo">
+    <img src="images/fati_pics.png" alt="Fatima Zahra">
+  </div>
+  <!-- <div class="name">Fatima Zahra</div> -->
+</div>
+
+<style>
+.profile-card{
+  text-align:center;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+/* BIGGER + CLEAR FRAME */
+.avatar-halo{
+  width: 280px;
+  height: 280px;
+  margin: 0 auto 14px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+
+  /* clear visible border */
+  border: 6px solid #8a9b84;
+
+  /* soft background light */
+  background: radial-gradient(circle at 30% 20%, rgba(255,255,255,0.35), transparent 35%)
+              ,linear-gradient(180deg, rgba(0,0,0,0.04), transparent 70%);
+
+  box-shadow: 0 14px 40px rgba(0,0,0,0.18);
+}
+
+/* Strong halo behind */
+.avatar-halo::before{
+  content: "";
+  position: absolute;
+  inset: -12%;
+  border-radius: 50%;
+  filter: blur(30px);
+  background: rgba(161,140,209,0.25);
+  z-index: 0;
+}
+
+.avatar-halo img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+  display: block;
+}
+
+.name{
+  font-weight: 600;
+  font-size: 18px;
+  color: #222;
+}
+</style>
+        </div>
+    </section>
+    <!-- fine home  -->
+    <section id="about" class="about-section">
+  <h2>ABOUT ME</h2>
+  <h3>Building Meaningful <br> Digital Experiences</h3>
+  <p>
+    I am <strong>Fatima Zahra Tagmouti</strong>, a fifth-year Computer Engineering student at 
+    <strong>EHEI Oujda</strong>, passionate about <strong>Salesforce CRM</strong>, 
+    <strong>Dynamics 365</strong>, <strong>DevOps</strong>, <strong>web development</strong>, 
+    and <strong>digital design</strong>. I enjoy creating full-stack projects and digital 
+    experiences that focus on quality, performance, and user-centered design, while exploring 
+    technologies such as <strong>Apex</strong>, <strong>Visualforce</strong>, and 
+    <strong>Lightning Components</strong>.
+    <br><br>
+    I have a strong interest in <strong>Salesforce</strong>, <strong>testing</strong>, 
+    <strong>QA</strong>, <strong>Business Analysis (BA)</strong>, 
+    <strong>Dynamics 365</strong>, and <strong>project management</strong>, with the ambition 
+    to evolve in roles such as <strong>Product Owner</strong> or <strong>Scrum Master</strong>. 
+    I am also open to opportunities involving <strong>.NET</strong>, <strong>Java</strong>, or 
+    <strong>React</strong>, where I can expand my technical skills and contribute to building 
+    impactful digital solutions.
+    <br><br>
+    Motivated by creativity, curiosity, and continuous learning, I am currently seeking a 
+    <strong>PFE internship</strong> in one of these fields, within dynamic teams where I can grow, 
+    collaborate, and contribute to meaningful, innovative, and user-focused projects.
+</p>
+
+</section>
+
+  <section id="skills" class="skills-section">
+  <h2>Technical skills </h2>
+
+  <div class="skills-category">
+    <h3><i class="fa-solid fa-code"></i> Langages & Frameworks</h3>
+    <div class="skills-grid">
+      <div class="skill-card">Python</div>
+      <div class="skill-card">PHP</div>
+      <div class="skill-card">Java</div>
+      <div class="skill-card">C++</div>
+      <div class="skill-card">JavaScript</div>
+      <div class="skill-card">React</div>
+      <div class="skill-card">Laravel</div>
+      <div class="skill-card">Symfony</div>
+      <div class="skill-card">Spring Boot</div>
+      <div class="skill-card">.NET</div>
+      <div class="skill-card">Jakarta EE</div>
+      <div class="skill-card">Bootstrap</div>
+      <div class="skill-card">jQuery</div>
+    </div>
+  </div>
+
+  <div class="skills-category">
+    <h3><i class="fa-solid fa-database"></i> Database Management Systems</h3>
+    <div class="skills-grid">
+      <div class="skill-card">MySQL</div>
+      <div class="skill-card">SQL Server</div>
+      <div class="skill-card">MongoDB</div>
+    </div>
+  </div>
+
+  <div class="skills-category">
+    <h3><i class="fa-solid fa-cloud"></i> CRM & Cloud</h3>
+    <div class="skills-grid">
+      <div class="skill-card">Salesforce (Admin, Lightning)</div>
+      <div class="skill-card">Apex (Salesforce Code)</div>
+      <div class="skill-card">API Salesforce</div>
+      <div class="skill-card">Dynamics 365</div>
+      <div class="skill-card">Docker</div>
+      <div class="skill-card">Kubernetes</div>
+      <div class="skill-card">Jenkins</div>
+      <div class="skill-card">CI/CD</div>
+      <div class="skill-card">Heroku (Cloud Salesforce)</div>
+    </div>
+  </div>
+
+  <div class="skills-category">
+    <h3><i class="fa-solid fa-vial"></i> Tests, QA & Monitoring</h3>
+    <div class="skills-grid">
+      <!-- <div class="skill-card">Selenium</div>
+      <div class="skill-card">Cypress</div> -->
+      <div class="skill-card">JUnit</div>
+      <div class="skill-card">Postman</div>
+      <div class="skill-card">Swagger</div>
+      <div class="skill-card">SonarQube</div>
+      <div class="skill-card">Grafana</div>
+      <div class="skill-card">Prometheus</div>
+    </div>
+  </div>
+
+  <div class="skills-category">
+    <h3><i class="fa-solid fa-microchip"></i> IoT & embarqué</h3>
+    <div class="skills-grid">
+      <div class="skill-card">Arduino</div>
+      <div class="skill-card">ESP8266</div>
+      <div class="skill-card">DHT11</div>
+    </div>
+  </div>
+
+  <div class="skills-category">
+    <h3><i class="fa-solid fa-pen-nib"></i> Design & Prototypage</h3>
+    <div class="skills-grid">
+      <div class="skill-card">Figma</div>
+      <div class="skill-card">Adobe XD</div>
+      <div class="skill-card">Illustrator</div>
+      <div class="skill-card">Photoshop</div>
+      <div class="skill-card">Canva</div>
+    </div>
+  </div>
+
+  <div class="skills-category">
+    <h3><i class="fa-solid fa-people-group"></i> Outils de gestion & collaboration</h3>
+    <div class="skills-grid">
+      <div class="skill-card">Jira</div>
+      <div class="skill-card">Trello</div>
+      <div class="skill-card">GitHub</div>
+      <div class="skill-card">GitLab</div>
+      <div class="skill-card">Notion</div>
+      <div class="skill-card">TortoiseGit</div>
+    </div>
+  </div>
+</section>
+<section id="soft-skills" class="skills-section">
+  <h2>Soft Skills & Languages</h2>
+
+  <div class="skills-category">
+    <h3><i class="fa-solid fa-brain"></i> Mindset & Problem Solving</h3>
+    <div class="skills-grid">
+      <div class="skill-card">Critical Thinking</div>
+      <div class="skill-card">Creative Problem-Solving</div>
+      <div class="skill-card">Analytical Skills</div>
+      <div class="skill-card">Continuous Learning</div>
+      <div class="skill-card">Adaptability</div>
+    </div>
+  </div>
+
+  <div class="skills-category">
+    <h3><i class="fa-solid fa-comments"></i> Communication & Leadership</h3>
+    <div class="skills-grid">
+      <div class="skill-card">Effective Communication</div>
+      <div class="skill-card">Team Collaboration</div>
+      <div class="skill-card">Public Speaking</div>
+      <div class="skill-card">Mentoring & Coaching</div>
+      <div class="skill-card">Active Listening</div>
+      <div class="skill-card">Conflict Resolution</div>
+    </div>
+  </div>
+
+  <div class="skills-category">
+    <h3><i class="fa-solid fa-briefcase"></i> Professional Efficiency</h3>
+    <div class="skills-grid">
+      <div class="skill-card">Agile & Scrum Methodology</div>
+      <div class="skill-card">Time Management</div>
+      <div class="skill-card">Project Management</div>
+      <div class="skill-card">Attention to Detail</div>
+      <div class="skill-card">Remote Collaboration</div>
+    </div>
+  </div>
+
+  <div class="skills-category">
+    <h3><i class="fa-solid fa-language"></i> Languages</h3>
+    <div class="skills-grid">
+      <div class="skill-card">Arabic </div>
+      <div class="skill-card">French</div>
+      <div class="skill-card">English </div>
+    </div>
+  </div>
+
+</section>
+<section class="activities-section" id="activities">
+  <h2><i class="fa-solid fa-users"></i> Volunteering & Leadership</h2>
+
+  <div class="activities-grid">
+
+    <div class="activity-card">
+      <h3>DigiGirlz Morocco – Leader, Mentor & Designer</h3>
+      <span class="date">July 2023 - Aug 2024</span>
+      <p>
+        Selected for the <strong>DigiGirlz Mentorship</strong> program by the Anoual Association, 
+        the US Embassy in Rabat, and Microsoft. 
+        As a mentor, I guided high school girls in designing STEM-based social innovation projects 
+        while developing my own skills in leadership, entrepreneurship, and IT. 
+        My vision: empowering young girls to pursue careers in technology.
+      </p>
+    </div>
+
+    <div class="activity-card">
+      <h3>Omar Ibn Abdelaziz Foundation (Science House Oujda) – Robotics Club Member</h3>
+      <span class="date">Dec 2021 - July 2025</span>
+      <p>
+        Active member involved in the design and programming of IoT projects through workshops 
+        and educational activities aimed at raising scientific awareness among youth. 
+        Facilitator at the 2023 Science Festival, where I helped popularize science 
+        and technology for the general public.
+      </p>
+    </div>
+
+    <div class="activity-card">
+      <h3>Enactus Morocco – Event Manager</h3>
+      <span class="date">Dec 2021 - Feb 2023</span>
+      <p>
+        Vice President of Events at the first Enactus chapter at OFPPT Technopole (CFMNTIOE) Oujda 🇲🇦.
+        Organized conferences, workshops, and panels to inspire students and promote social and sustainable entrepreneurship. 
+        Coordinated local initiatives aimed at strengthening social impact and community engagement.
+      </p>
+    </div>
+
+    <div class="activity-card">
+      <h3>Philia Club – Design & Development Member</h3>
+      <span class="date">Nov 2021 - Apr 2022</span>
+      <p>
+        Designed visuals for social media and communication materials (posters, flyers, posts).
+        Collaborated on web design and development projects, focusing on creativity 
+        and visual consistency.
+      </p>
+    </div>
+
+    <div class="activity-card">
+      <h3>Community Leader – English Learning Group (Telegram)</h3>
+      <span class="date">2022 - 2023</span>
+      <p>
+        Founder and moderator of an online Telegram community dedicated to practicing English.
+        Organized public discussions (chats, calls, voice notes) and shared lessons, 
+        exercises, and resources to improve members' linguistic and oral skills.
+      </p>
+    </div>
+
+    <div class="activity-card">
+      <h3>Community Leader – Quran & Islamic Studies Group (Telegram)</h3>
+      <span class="date">Since 2022</span>
+      <p>
+        Creator and moderator of a private Telegram group dedicated to Quranic studies and Islamic values.
+        Facilitated discussions, shared resources, and encouraged collective memorization 
+        within a supportive and spiritual environment.
+      </p>
+    </div>
+
+  </div>
+</section>
+<!-- Projects Section -->
+    <section class="project" id="project">
+  <p>PROJECTS</p>
+  <h1>Featured Work</h1>
+  <hr>
+  <div class="info-pro">
+    <p>A showcase of my academic and personal projects demonstrating expertise in full-stack</p>
+    <p>development, modern frameworks, and creative problem-solving.</p>
+  </div>
+
+<div class="projects-container">
+
+  <!-- Gestion des Stages -->
+  <div class="project-card">
+    <h3>Gestion des Stages</h3>
+    <p>Application destinée à faciliter le suivi administratif et pédagogique des stages (PFA / PFE / Stage d’initiation) pour les étudiants, enseignants encadrants et l'administration.</p>
+    <div class="skills">
+      <a href="#">ASP.NET Core</a>
+      <a href="#">Entity Framework Core</a>
+      <a href="#">SQL Server</a>
+      <a href="#">PDF Generation</a>
+    </div>
+    <div class="btns">
+      <a href="https://github.com/fatimazahratag/GestionStages" class="btn" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      <!-- <a href="#" class="btn" target="_blank"><i class="fas fa-video"></i> Demo</a> -->
+    </div>
+  </div>
+
+  <!-- Recruitment System -->
+  <div class="project-card" >
+    <h3>Recruitment Management System</h3>
+    <p>System to facilitate hiring engineers. Agile Scrum, GitHub collaboration.</p>
+    <div class="skills">
+      <a href="#">React</a>
+      <a href="#">.NET Core</a>
+      <a href="#">SQL Server</a>
+      <a href="#">Python</a>
+    </div>
+    <div class="btns">
+      <a href="https://gitlab.com/ehei1091449/jobgeniepfa/-/tree/feature/candidat?ref_type=heads" class="btn" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+<a href="espace_candidat_vf.mp4" class="btn" target="_blank">
+  <i class="fas fa-video"></i> Demo
+</a>
+    </div>
+  </div>
+
+  <!-- Personal Goals Tracker -->
+  <div class="project-card">
+    <h3>Personal Goals Tracker</h3>
+    <p>Web app for tracking personal and professional goals. Jakarta EE + MySQL.</p>
+    <div class="skills">
+      <a href="#">Jakarta EE</a>
+      <a href="#">HTML</a>
+      <a href="#">CSS</a>
+      <a href="#">JavaScript</a>
+      <a href="#">MySQL</a>
+    </div>
+    <div class="btns">
+      <a href="https://github.com/Fatitag/OptiTask_soutenanceJee/tree/main/projet%20jee" class="btn" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+<a href="video_jee.mp4" class="btn" target="_blank">
+  <i class="fas fa-video"></i> Demo
+</a>
+    </div>
+  </div>
+
+  <!-- NASA Space Apps -->
+  <div class="project-card">
+    <h3>NASA Space Apps – Exoplanets App</h3>
+    <p>Educational web app with interactive exoplanet visualizations.</p>
+    <div class="skills">
+      <a href="#">HTML</a>
+      <a href="#">CSS</a>
+      <a href="#">JavaScript</a>
+      <a href="#">Figma</a>
+    </div>
+    <div class="btns">
+      <a href="https://github.com/Bilgassim/Exoplanet-Chronicles-NASA" class="btn" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      <!-- <a href="https://youtu.be/YourVideoLink" class="btn" target="_blank"><i class="fas fa-video"></i> Demo</a> -->
+    </div>
+  </div>
+
+  <!-- Energym -->
+  <div class="project-card">
+    <h3>Energym – Gym Management System</h3>
+    <p>Complete platform connecting web, C++, and Java interfaces to a central MySQL database.</p>
+    <div class="skills">
+      <a href="#">HTML</a>
+      <a href="#">CSS</a>
+      <a href="#">JS</a>
+      <a href="#">PHP</a>
+      <a href="#">C++</a>
+      <a href="#">Java Swing</a>
+      <a href="#">MySQL</a>
+    </div>
+    <div class="btns">
+      <a href="https://github.com/Fatitag/PFA/tree/main/energymm_v9/energymm_v9/energymm_v5/web" class="btn" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+<a href="gym.mp4" class="btn" target="_blank">
+  <i class="fas fa-video"></i> Demo
+</a>
+    </div>
+  </div>
+
+  <!-- Logima -->
+  <div class="project-card">
+    <h3>Logima – Scolarité Management</h3>
+    <p>Full stack system for student management at Faculty of Medicine & Pharmacy, Oujda.</p>
+    <div class="skills">
+      <a href="#">Laravel</a>
+      <a href="#">PHP</a>
+      <a href="#">MySQL</a>
+      <a href="#">HTML</a>
+      <a href="#">CSS</a>
+      <a href="#">JavaScript</a>
+    </div>
+    <div class="btns">
+      <!-- <a href="https://github.com/fatimazahratag/logima" class="btn" target="_blank"><i class="fab fa-github"></i> GitHub</a> -->
+      <!-- <a href="#" class="btn" target="_blank"><i class="fas fa-video"></i> Demo</a> -->
+    </div>
+  </div>
+
+  <!-- Weather App -->
+  <!-- <div class="project-card" >
+    <h3>Weather App</h3>
+    <p>Responsive app showing real-time weather data using API integration.</p>
+    <div class="skills">
+      <a href="#">HTML</a>
+      <a href="#">CSS</a>
+      <a href="#">JavaScript</a>
+      <a href="#">API</a>
+    </div>
+    <div class="btns">
+      <a href="https://github.com/fatimazahratag/weather-app" class="btn" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      <a href="#" class="btn" target="_blank"><i class="fas fa-video"></i> Demo</a>
+    </div>
+  </div> -->
+
+  <!-- RMI Bank -->
+  <div class="project-card" >
+    <h3>RMI Bank Project</h3>
+    <p>Banking management system built with Java RMI for distributed transaction processing.</p>
+    <div class="skills">
+      <a href="#">Java RMI</a>
+      <a href="#">Socket</a>
+      <a href="#">JDBC</a>
+    </div>
+    <div class="btns">
+      <a href="https://github.com/fatimazahratag/BanqueRMIApp" class="btn" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      <!-- <a href="#" class="btn" target="_blank"><i class="fas fa-video"></i> Demo</a> -->
+    </div>
+  </div>
+
+  <!-- IoT -->
+  <div class="project-card" >
+    <h3>IoT – Temperature & Humidity System</h3>
+    <p>IoT-based system for measuring and displaying temperature & humidity in real time.</p>
+    <div class="skills">
+      <a href="#">Arduino</a>
+      <a href="#">Python</a>
+      <a href="#">Sensors</a>
+    </div>
+    <div class="btns">
+      <a href="https://github.com/fatimazahratag/cold-chain-monitoring" class="btn" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      <!-- <a href="#" class="btn" target="_blank"><i class="fas fa-video"></i> Demo</a> -->
+    </div>
+  </div>
+
+  <!-- Osiris -->
+  <div class="project-card" >
+    <h3>Osiris API Project</h3>
+    <p>RESTful API development project focused on secure authentication and data access for flight management.</p>
+    <div class="skills">
+      <a href="#">Java</a>
+      <a href="#">spring</a>
+      <a href="#">API</a>
+    </div>
+    <div class="btns">
+      <a href="https://github.com/fatimazahratag/OsirisProjectJava" class="btn" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      <!-- <a href="#" class="btn" target="_blank"><i class="fas fa-video"></i> Demo</a> -->
+    </div>
+  </div>
+
+  <!-- Location Voiture -->
+  <div class="project-card" >
+    <h3>Location Voiture</h3>
+    <p>Desktop application for managing vehicle rental operations efficiently.</p>
+    <div class="skills">
+      <a href="#">C#</a>
+      <a href="#">.NET</a>
+      <a href="#">SQL</a>
+    </div>
+    <div class="btns">
+      <a href="https://github.com/fatimazahratag/LocationVoiture" class="btn" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      <!-- <a href="#" class="btn" target="_blank"><i class="fas fa-video"></i> Demo</a> -->
+    </div>
+  </div>
+
+  <!-- Gestion Vol -->
+  <div class="project-card" >
+    <h3>Gestion Vol</h3>
+    <p>Flight management application handling reservations and flight schedules.</p>
+    <div class="skills">
+      <a href="#">C#</a>
+      <a href="#">.NET</a>
+      <a href="#">SQL</a>
+    </div>
+    <div class="btns">
+      <a href="https://github.com/fatimazahratag/GestionVol" class="btn" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      <!-- <a href="#" class="btn" target="_blank"><i class="fas fa-video"></i> Demo</a> -->
+    </div>
+  </div>
+
+  <!-- AirBooking -->
+  <div class="project-card" >
+    <h3>AirBooking</h3>
+    <p>Airline booking system built with C# for managing passengers and flights.</p>
+    <div class="skills">
+      <a href="#">C#</a>
+      <a href="#">.NET</a>
+      <a href="#">SQL</a>
+    </div>
+    <div class="btns">
+      <a href="https://github.com/fatimazahratag/AireBooking" class="btn" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      <!-- <a href="#" class="btn" target="_blank"><i class="fas fa-video"></i> Demo</a> -->
+    </div>
+  </div>
+
+</div>
+</section>
+
+<!-- Project Modals -->
+<!--  -->
+
+
+</div>
+<!-- 
+     <section class="services" id="services">
+        <p>SERVICES</p>
+        <h1>Our Features & Services</h1>
+        <hr>
+        <div class="services-container">
+
+    <div class="service-card">
+      <img src="images/web.svg" alt="Web Development">
+      <h3>Web Development</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi soluta est veniam sequi nemo.</p>
+    </div>
+
+    <div class="service-card">
+      <img src="images/app.svg" alt="App Development">
+      <h3>App Development</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi soluta est veniam sequi nemo.</p>
+    </div>
+
+    <div class="service-card">
+      <img src="images/dm.svg" alt="Digital Marketing">
+      <h3>Digital Marketing</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi soluta est veniam sequi nemo.</p>
+    </div>
+
+    <div class="service-card">
+      <img src="images/seo.svg" alt="Email Marketing">
+      <h3>Email Marketing</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi soluta est veniam sequi nemo.</p>
+    </div>
+
+  </div>
+     </section> -->
+     <section class="contact" id="contact">
+        <p>CONTACT</p>
+        <h1>Get in Touch with Us</h1>
+        <div class="contact-content">
+      <div class="contact-info slide-in-left">
+        <p>I'm always open to discuss exciting projects and new opportunities. Let's collaborate!</p>
+        <div class="contact-details">
+          <div class="contact-item">
+            <i class="fa-solid fa-envelope"></i>
+            <span>fatimazahra.tagmouti.dev@gmail.com</span>
+          </div>
+          <div class="contact-item">
+            <i class="fa-solid fa-phone"></i>
+            <span>+212 6 90 07 02 06</span>
+          </div>
+          <div class="contact-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Oujda(Open to relocation), Morocco</span>
+          </div>
+        </div>
+
+        <div class="social-links">
+          <a href="https://github.com/fatimazahratag" class="social-link" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/fatima-zahra-tagmouti-37138b295" class="social-link" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="https://wa.me/212690070206" class="social-link" target="_blank">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="contact-form slide-in-right">
+        <form id="contact-form">
+          <div class="form-group">
+            <input type="text" placeholder="Your Name" required name="user_name">
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Your Email" required name="user_email">
+          </div>
+          <div class="form-group">
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn-send">Send Message</button>
+        </form>
+      </div>
+    </div>
+     </section>
+     <footer class="footer">
+  <div class="footer-container">
+    <h2 class="footer-logo">Fatima Zahra Tagmouti</h2>
+    <ul class="footer-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#activities">activities</a></li>
+      <li><a href="#project">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="footer-social">
+      <a href="https://github.com/fatimazahratag" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/fatima-zahra-tagmouti-37138b295"  target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://wa.me/212690070206" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+    <p class="footer-copy">&copy; 2025 Fatima Zahra Tagmouti. All Rights Reserved.</p>
+  </div>
+</footer>
+
+     <script src="main.js"></script>
+     <script>
+  // Select all cards
+  const cards = document.querySelectorAll('.project-card');
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry, index) => {
+      if (entry.isIntersecting) {
+        // Add a delay based on the index (0.1s, 0.2s, 0.3s...)
+        entry.target.style.transitionDelay = `${index * 0.1}s`;
+        entry.target.classList.add('show-card');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1 });
+
+  cards.forEach(card => {
+    card.classList.add('hidden-card'); // Add initial hidden class
+    observer.observe(card);
+  });
+</script>
+
+<style>
+  /* Add these 2 classes to your CSS for the animation to work */
+  .hidden-card {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.6s ease-out;
+  }
+  .show-card {
+    opacity: 1;
+    transform: translateY(0);
+  }
+</style>
+</body>
+</html>

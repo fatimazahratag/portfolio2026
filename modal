@@ -1,0 +1,528 @@
+<div id="project-modals">
+<!-- Gestion des Stages Modal -->
+<div class="modal fade" id="stagesModal" tabindex="-1" aria-labelledby="stagesModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="stagesModalLabel">Gestion des Stages</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div id="stagesCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <!-- Repeat this block for each image -->
+            <div class="carousel-item active">
+  <img src="gestionstages/1.png" class="d-block w-100" alt="Stages Screenshot 1">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/2.png" class="d-block w-100" alt="Stages Screenshot 2">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/3.png" class="d-block w-100" alt="Stages Screenshot 3">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/4.png" class="d-block w-100" alt="Stages Screenshot 4">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/5.png" class="d-block w-100" alt="Stages Screenshot 5">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/6.png" class="d-block w-100" alt="Stages Screenshot 6">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/7.png" class="d-block w-100" alt="Stages Screenshot 7">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/8.png" class="d-block w-100" alt="Stages Screenshot 8">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/9.png" class="d-block w-100" alt="Stages Screenshot 9">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/10.png" class="d-block w-100" alt="Stages Screenshot 10">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/11.png" class="d-block w-100" alt="Stages Screenshot 11">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/12.png" class="d-block w-100" alt="Stages Screenshot 12">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/13.png" class="d-block w-100" alt="Stages Screenshot 13">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/14.png" class="d-block w-100" alt="Stages Screenshot 14">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/15.png" class="d-block w-100" alt="Stages Screenshot 15">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/16.png" class="d-block w-100" alt="Stages Screenshot 16">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/17.png" class="d-block w-100" alt="Stages Screenshot 17">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/18.png" class="d-block w-100" alt="Stages Screenshot 18">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/19.png" class="d-block w-100" alt="Stages Screenshot 19">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/20.png" class="d-block w-100" alt="Stages Screenshot 20">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/21.png" class="d-block w-100" alt="Stages Screenshot 21">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/22.png" class="d-block w-100" alt="Stages Screenshot 22">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/23.png" class="d-block w-100" alt="Stages Screenshot 23">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/24.png" class="d-block w-100" alt="Stages Screenshot 24">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/25.png" class="d-block w-100" alt="Stages Screenshot 25">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/26.png" class="d-block w-100" alt="Stages Screenshot 26">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/27.png" class="d-block w-100" alt="Stages Screenshot 27">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/28.png" class="d-block w-100" alt="Stages Screenshot 28">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/29.png" class="d-block w-100" alt="Stages Screenshot 29">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/30.png" class="d-block w-100" alt="Stages Screenshot 30">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/31.png" class="d-block w-100" alt="Stages Screenshot 31">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/32.png" class="d-block w-100" alt="Stages Screenshot 32">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/33.png" class="d-block w-100" alt="Stages Screenshot 33">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/34.png" class="d-block w-100" alt="Stages Screenshot 34">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/35.png" class="d-block w-100" alt="Stages Screenshot 35">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/36.png" class="d-block w-100" alt="Stages Screenshot 36">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/37.png" class="d-block w-100" alt="Stages Screenshot 37">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/38.png" class="d-block w-100" alt="Stages Screenshot 38">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/39.png" class="d-block w-100" alt="Stages Screenshot 39">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/40.png" class="d-block w-100" alt="Stages Screenshot 40">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/41.png" class="d-block w-100" alt="Stages Screenshot 41">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/42.png" class="d-block w-100" alt="Stages Screenshot 42">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/43.png" class="d-block w-100" alt="Stages Screenshot 43">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/44.png" class="d-block w-100" alt="Stages Screenshot 44">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/45.png" class="d-block w-100" alt="Stages Screenshot 45">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/46.png" class="d-block w-100" alt="Stages Screenshot 46">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/47.png" class="d-block w-100" alt="Stages Screenshot 47">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/48.png" class="d-block w-100" alt="Stages Screenshot 48">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/49.png" class="d-block w-100" alt="Stages Screenshot 49">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/50.png" class="d-block w-100" alt="Stages Screenshot 50">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/51.png" class="d-block w-100" alt="Stages Screenshot 51">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/52.png" class="d-block w-100" alt="Stages Screenshot 52">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/53.png" class="d-block w-100" alt="Stages Screenshot 53">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/54.png" class="d-block w-100" alt="Stages Screenshot 54">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/55.png" class="d-block w-100" alt="Stages Screenshot 55">
+</div>
+<div class="carousel-item">
+  <img src="gestionstages/56.png" class="d-block w-100" alt="Stages Screenshot 56">
+</div>
+
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#stagesCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#stagesCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Recruitment Management System -->
+  <div class="project-modal" id="recruitmentModal">
+    <div class="modal-content">
+      <span class="close" onclick="closeProject('recruitmentModal')">&times;</span>
+      <h2>Recruitment Management System</h2>
+      <div id="recruitmentCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/fati_pics.png" class="d-block w-100" alt="Recruitment Screenshot 1">
+          </div>
+          <div class="carousel-item">
+            <img src="images/fati_pics.png" class="d-block w-100" alt="Recruitment Screenshot 2">
+          </div>
+          <div class="carousel-item">
+            <img src="images/fati_pics.png" class="d-block w-100" alt="Recruitment Screenshot 3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#recruitmentCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#recruitmentCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Personal Goals Tracker -->
+  <div class="project-modal" id="goalsModal">
+    <div class="modal-content">
+      <span class="close" onclick="closeProject('goalsModal')">&times;</span>
+      <h2>Personal Goals Tracker</h2>
+      <div id="goalsCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://via.placeholder.com/600x400?text=Goals+1" class="d-block w-100" alt="Goals Screenshot 1">
+          </div>
+          <div class="carousel-item">
+            <img src="https://via.placeholder.com/600x400?text=Goals+2" class="d-block w-100" alt="Goals Screenshot 2">
+          </div>
+          <div class="carousel-item">
+            <img src="https://via.placeholder.com/600x400?text=Goals+3" class="d-block w-100" alt="Goals Screenshot 3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#goalsCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#goalsCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Weather App -->
+  <div class="project-modal" id="weatherModal">
+    <div class="modal-content">
+      <span class="close" onclick="closeProject('weatherModal')">&times;</span>
+      <h2>Weather App</h2>
+      <div id="weatherCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://via.placeholder.com/600x400?text=Weather+1" class="d-block w-100" alt="Weather Screenshot 1">
+          </div>
+          <div class="carousel-item">
+            <img src="https://via.placeholder.com/600x400?text=Weather+2" class="d-block w-100" alt="Weather Screenshot 2">
+          </div>
+          <div class="carousel-item">
+            <img src="https://via.placeholder.com/600x400?text=Weather+3" class="d-block w-100" alt="Weather Screenshot 3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#weatherCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#weatherCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- NASA -->
+  <div class="project-modal" id="nasaModal">
+    <div class="modal-content">
+      <span class="close" onclick="closeProject('nasaModal')">&times;</span>
+      <h2>NASA Space Apps – Exoplanets App</h2>
+      <div id="nasaCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/nasa1.png" class="d-block w-100" alt="NASA Screenshot 1">
+          </div>
+          <div class="carousel-item">
+            <img src="images/nasa2.png" class="d-block w-100" alt="NASA Screenshot 2">
+          </div>
+          <div class="carousel-item">
+            <img src="images/nasa3.png" class="d-block w-100" alt="NASA Screenshot 3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#nasaCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#nasaCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Energym -->
+  <div class="project-modal" id="gymModal">
+    <div class="modal-content">
+      <span class="close" onclick="closeProject('gymModal')">&times;</span>
+      <h2>Energym – Gym Management System</h2>
+      <div id="gymCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/gym1.png" class="d-block w-100" alt="Energym Screenshot 1">
+          </div>
+          <div class="carousel-item">
+            <img src="images/gym2.png" class="d-block w-100" alt="Energym Screenshot 2">
+          </div>
+          <div class="carousel-item">
+            <img src="images/gym3.png" class="d-block w-100" alt="Energym Screenshot 3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#gymCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#gymCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Logima -->
+  <div class="project-modal" id="logimaModal">
+    <div class="modal-content">
+      <span class="close" onclick="closeProject('logimaModal')">&times;</span>
+      <h2>Logima – Scolarité Management</h2>
+      <div id="logimaCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/logima1.png" class="d-block w-100" alt="Logima Screenshot 1">
+          </div>
+          <div class="carousel-item">
+            <img src="images/logima2.png" class="d-block w-100" alt="Logima Screenshot 2">
+          </div>
+          <div class="carousel-item">
+            <img src="images/logima3.png" class="d-block w-100" alt="Logima Screenshot 3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#logimaCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#logimaCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- RMI Bank -->
+  <div class="project-modal" id="rmiModal">
+    <div class="modal-content">
+      <span class="close" onclick="closeProject('rmiModal')">&times;</span>
+      <h2>RMI Bank Project</h2>
+      <div id="rmiCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/rmi1.png" class="d-block w-100" alt="RMI Screenshot 1">
+          </div>
+          <div class="carousel-item">
+            <img src="images/rmi2.png" class="d-block w-100" alt="RMI Screenshot 2">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#rmiCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#rmiCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- IoT -->
+  <div class="project-modal" id="iotModal">
+    <div class="modal-content">
+      <span class="close" onclick="closeProject('iotModal')">&times;</span>
+      <h2>IoT – Temperature & Humidity System</h2>
+      <div id="iotCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/iot1.png" class="d-block w-100" alt="IoT Screenshot 1">
+          </div>
+          <div class="carousel-item">
+            <img src="images/iot2.png" class="d-block w-100" alt="IoT Screenshot 2">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#iotCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#iotCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Osiris -->
+  <div class="project-modal" id="osirisModal">
+    <div class="modal-content">
+      <span class="close" onclick="closeProject('osirisModal')">&times;</span>
+      <h2>Osiris API</h2>
+      <div id="osirisCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/osiris1.png" class="d-block w-100" alt="Osiris Screenshot 1">
+          </div>
+          <div class="carousel-item">
+            <img src="images/osiris2.png" class="d-block w-100" alt="Osiris Screenshot 2">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#osirisCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#osirisCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Location Voiture -->
+  <div class="project-modal" id="locationModal">
+    <div class="modal-content">
+      <span class="close" onclick="closeProject('locationModal')">&times;</span>
+      <h2>Car Rental App</h2>
+      <div id="locationCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/location1.png" class="d-block w-100" alt="Car Rental Screenshot 1">
+          </div>
+          <div class="carousel-item">
+            <img src="images/location2.png" class="d-block w-100" alt="Car Rental Screenshot 2">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#locationCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#locationCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Vol -->
+  <div class="project-modal" id="volModal">
+    <div class="modal-content">
+      <span class="close" onclick="closeProject('volModal')">&times;</span>
+      <h2>Flight Management App</h2>
+      <div id="volCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/vol1.png" class="d-block w-100" alt="Vol Screenshot 1">
+          </div>
+          <div class="carousel-item">
+            <img src="images/vol2.png" class="d-block w-100" alt="Vol Screenshot 2">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#volCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#volCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- AirBooking -->
+  <div class="project-modal" id="airbookingModal">
+    <div class="modal-content">
+      <span class="close" onclick="closeProject('airbookingModal')">&times;</span>
+      <h2>AirBooking System</h2>
+      <div id="airbookingCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/airbooking1.png" class="d-block w-100" alt="AirBooking Screenshot 1">
+          </div>
+          <div class="carousel-item">
+            <img src="images/airbooking2.png" class="d-block w-100" alt="AirBooking Screenshot 2">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#airbookingCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#airbookingCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+</div>
